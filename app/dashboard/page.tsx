@@ -6,14 +6,13 @@ export default function DashboardPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-3xl font-bold tracking-tight">Welcome back, Jane!</h1>
+        <h1 className="text-3xl font-bold tracking-tight">Welcome back, Monami!</h1>
         <p className="text-muted-foreground">
           Continue where you left off or explore new courses.
         </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Course Card */}
         <Link href="/dashboard/courses" className="hover-lift">
           <Card className="h-full course-card border-none shadow-md overflow-hidden">
             <CardHeader className="pb-2">
@@ -22,7 +21,7 @@ export default function DashboardPage() {
                 Your Courses
               </CardTitle>
               <CardDescription className="text-black/70 font-medium">
-                Hoohooo let's study!
+                Hoohooo let&apos;s study!
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -35,7 +34,7 @@ export default function DashboardPage() {
           </Card>
         </Link>
 
-        {/* Notes and Tests Card */}
+        
         <Link href="/dashboard/notes" className="hover-lift">
           <Card className="h-full test-card border-none shadow-md overflow-hidden">
             <CardHeader className="pb-2">
@@ -70,7 +69,7 @@ export default function DashboardPage() {
           </Card>
         </Link>
 
-        {/* Todo List Card */}
+       
         <Link href="/dashboard/todo" className="hover-lift">
           <Card className="h-full todo-card border-none shadow-md overflow-hidden">
             <CardHeader className="pb-2">
@@ -94,7 +93,7 @@ export default function DashboardPage() {
           </Card>
         </Link>
 
-        {/* Subscription Card */}
+ 
         <Link href="/dashboard/subscription" className="hover-lift">
           <Card className="h-full subscription-card border-none shadow-md overflow-hidden">
             <CardHeader className="pb-2">
