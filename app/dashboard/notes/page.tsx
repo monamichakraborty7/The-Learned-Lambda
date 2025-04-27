@@ -19,7 +19,7 @@ export default function NotesAndTestsPage() {
         </p>
       </div>
 
-      <Tabs 
+      {/* <Tabs 
         defaultValue="notes" 
         value={activeTab} 
         onValueChange={setActiveTab}
@@ -95,7 +95,7 @@ export default function NotesAndTestsPage() {
         </TabsContent>
 
         <TabsContent value="tests" className="space-y-6">
-          <Card className="bg-[hsl(var(--test-card)/30)] border-none">
+        <Card className="bg-[#3cac6e91] border-none">
             <CardHeader>
               <CardTitle>Your Test Progress</CardTitle>
               <CardDescription>
@@ -196,7 +196,7 @@ export default function NotesAndTestsPage() {
                         </div>
                       </>
                     ) : (
-                      <Button size="sm" className="bg-[hsl(var(--sidebar))] hover:bg-[hsl(var(--sidebar))/90] w-full">
+                      <Button size="sm" className="bg-[#3cac6e91]  w-full">
                         Start Test
                       </Button>
                     )}
@@ -206,7 +206,7 @@ export default function NotesAndTestsPage() {
             </div>
           </div>
         </TabsContent>
-      </Tabs>
-    </div>
+      </Tabs>*/}
+    </div> 
   );
 }

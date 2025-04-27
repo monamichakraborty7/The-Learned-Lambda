@@ -35,7 +35,7 @@ export default function DashboardPage() {
         </Link>
 
         
-        <Link href="/dashboard/notes" className="hover-lift">
+        <Link href="/dashboard" className="hover-lift">
           <Card className="h-full test-card border-none shadow-md overflow-hidden">
             <CardHeader className="pb-2">
               <CardTitle className="flex items-center gap-2 text-black">
