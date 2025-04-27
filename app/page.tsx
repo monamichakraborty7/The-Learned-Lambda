@@ -20,7 +20,7 @@ export default function Home() {
             Track courses, manage notes, and optimize your study schedule.
           </p>
           <div className="flex gap-4">
-            <Button asChild className="bg-[hsl(var(--sidebar))] hover:bg-[hsl(var(--sidebar))/90]">
+            <Button asChild className="bg-[hsl(var(--sidebar))] hover:bg-[#0b0427]">
               <Link href="/login">Get Started</Link>
             </Button>
             <Button variant="outline" asChild>
@@ -90,7 +90,7 @@ export default function Home() {
             </li>
           </ul>
           <div className="mt-8">
-            <Button asChild className="w-full bg-[hsl(var(--sidebar))] hover:bg-[hsl(var(--sidebar))/90]">
+            <Button asChild className="w-full bg-[hsl(var(--sidebar))] hover:bg-[#0b0427]">
               <Link href="/login">Sign Up Now</Link>
             </Button>
           </div>

@@ -82,7 +82,7 @@ export default function LoginPage() {
 
           <Button 
             type="submit" 
-            className="w-full bg-[hsl(var(--sidebar))] hover:bg-[hsl(var(--sidebar))/90]"
+            className="w-full bg-[hsl(var(--sidebar))] hover:bg-[#0b0427]"
           >
             {isLogin ? "Let's Begin" : "Create Account"}
           </Button>
@@ -90,7 +90,7 @@ export default function LoginPage() {
           <div className="text-center text-sm mt-4">
             {isLogin ? (
               <p>
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <button 
                   type="button"
                   onClick={() => setIsLogin(false)} 

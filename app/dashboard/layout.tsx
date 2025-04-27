@@ -9,6 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import {AvatarDropdown} from '@/components/ui/users/user-drop';
 
 export default function DashboardLayout({
   children,
@@ -129,7 +130,7 @@ export default function DashboardLayout({
               <Button 
                 variant="outline" 
                 size="sm" 
-                className="w-full border-white/20 text-white hover:bg-white/10 hover:text-white"
+                className="w-full border-white/20 text-black hover:bg-[#0b0427] hover:text-white"
               >
                 <Moon className="mr-2 h-4 w-4" />
                 <span>Dark Mode</span>
@@ -154,10 +155,7 @@ export default function DashboardLayout({
                 <Bell size={20} />
                 <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
               </Button>
-              <Avatar>
-                <AvatarImage src="https://github.com/shadcn.png" />
-                <AvatarFallback>JD</AvatarFallback>
-              </Avatar>
+              <AvatarDropdown/>
             </div>
           </header>
 
